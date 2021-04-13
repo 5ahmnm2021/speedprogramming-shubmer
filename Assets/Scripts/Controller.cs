@@ -11,7 +11,6 @@ public class Controller : MonoBehaviour
     public Button richtig;
     public GameObject falschtext;
 
-    // Start is called before the first frame update
     void Start()
     {
         falschtext.SetActive(false);
@@ -33,5 +32,10 @@ public class Controller : MonoBehaviour
     public void ChangeScene1()
     {
         SceneManager.LoadScene("Screen2");
+    }
+
+    public void ChangeScene2()
+    {
+        SceneManager.LoadScene("Screen3");
     }
 }
